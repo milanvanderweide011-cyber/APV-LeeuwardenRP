@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeuwarden Roleplay – Wet & Regelgeving</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #6a0dad, #b266ff);
+        }
+        nav {
+            background: rgba(75, 0, 130, 0.9);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        main {
+            max-width: 900px;
+            margin: -30px auto 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        section {
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+        h2 {
+            color: #6a0dad;
+            border-bottom: 3px solid #b266ff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            background: rgba(75, 0, 130, 0.9);
+        }
+        /* Video rechtsboven positioneren */
+        .corner-video {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 200px;
+            height: auto;
+            z-index: 9999;
+            pointer-events: none;
+        }
+        /* Responsive voor kleinere schermen */
+        @media (max-width: 600px) {
+            .corner-video {
+                width: 120px;
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a onclick="showPage('home')">Home</a>
+        <a onclick="showPage('apv')">APV</a>
+        <a onclick="showPage('onderwereld')">Onderwereld</a>
+        <a onclick="showPage('hulpdiensten')">Hulpdiensten</a>
+    </nav>
+
+    <header>
+        <h1>Wet- en Regelgeving</h1>
+        <p>Leeuwarden Roleplay</p>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <h2>Welkom</h2>
+            <p>
+                Hier vind je alle belangrijke documenten zoals de Algemene Plaatselijke Verordening (APV),
+                onderwereld informatie en hulpdiensten informatie.
+            </p>
+        </section>
+
+        <section id="apv">
+            <h2>Algemene Plaatselijke Verordening</h2>
+            <p>De APV bevat alle algemene serverregels en richtlijnen. Lees deze goed door voordat je begint met spelen.</p>
+
+            <h3>Artikel 1.4 – Metagamen</h3>
+            <p>Informatie die OOC (Out Of Character) wordt verkregen, mag niet IC (In Character) worden gebruikt.</p>
+            <h4>Voorbeelden van Metagaming:</h4>
+            <ul>
+                <li>Schermdelen in Discord terwijl je in Leeuwarden Roleplay bent</li>
+                <li>Niet muted & deafened zijn in Discord tijdens het spelen</li>
+                <li>OOC verkregen informatie gebruiken in een scenario</li>
+                <li>Streamsniping (valt onder zware metagaming)</li>
+            </ul>
+
+            <h3>Artikel 1.5 – Karakter breken / OOC</h3>
+            <p>Het is niet toegestaan om uit karakter te gaan of OOC-termen te gebruiken.</p>
+            <h4>Voorbeelden van karakter breken:</h4>
+            <ul>
+                <li>“Ik ga dit scenario niet afmaken want je vdmt mij volop.”</li>
+                <li>“Ik maak een ticket want dit mag niet.”</li>
+                <li>“Staff komt zo want ik heb een report gemaakt.”</li>
+            </ul>
+            <h4>Voorbeelden van OOC-termen:</h4>
+            <ul>
+                <li>VDM</li>
+                <li>Ticket</li>
+                <li>Clip</li>
+                <li>Staff</li>
+                <li>Discord</li>
+            </ul>
+
+            <h3>Artikel 1.6 – Combatloggen</h3>
+            <p>
+                Je dient minimaal 10 minuten afgeschud te hebben voordat je de stad mag verlaten.
+                Bij een game/pc crash dien jij binnen de 5 minuten weer terug te joinen.
+            </p>
+            <h4>Voorbeelden van Combatloggen:</h4>
+            <ul>
+                <li>De stad verlaten tijdens een vuurgevecht of achtervolging</li>
+                <li>Binnen 10 minuten na schieten de stad verlaten</li>
+                <li>Binnen 10 minuten na een rip de stad verlaten</li>
+            </ul>
+
+            <h3>Artikel 1.7 – NVOL (No Value of Life)</h3>
+<p>
+    In Leeuwarden Roleplay dien je waarde te hechten aan je leven.
+    Het is niet toegestaan om als een suïcidaal persoon rond te lopen.
+</p>
+<p>Hieronder volgt een simpele uitleg van de categorieën binnen NVOL.</p>
+
+<h4>Voorbeelden:</h4>
+<ul>
+    <li>Gevaarlijke stunts met of zonder voertuigen</li>
+    <li>Weglopen van een gericht wapen binnen shouting range</li>
+    <li>Opzettelijk met een voertuig het water in rijden of vliegen</li>
+    <li>Jezelf in gevaar brengen zonder geldige reden (bijv. voor actie of om te kloten)</li>
+    <li>Een wapen trekken binnen 10 seconden nadat je in je benen bent geschoten</li>
+    <li>Niet meewerken nadat je jezelf hebt overgegeven (bijv. handen omhoog of overmeesterd)</li>
+    <li>Terugschieten of steken op iemand die een gericht wapen op je heeft binnen shouting range</li>
+</ul>
+
+<h3>Artikel 1.8 – New Life Rule (NLR)</h3>
+<p>
+    Wanneer je karakter sterft, verlies je alle herinneringen van vóór je dood.
+    Je begint als het ware een nieuw leven zonder kennis van de situatie
+    die tot je dood heeft geleid.
+</p>
+<p>Hieronder volgt een simpele uitleg van de regels binnen NLR.</p>
+
+<h4>Regels:</h4>
+<ul>
+    <li>Het is verboden om ook maar iets te onthouden van vóór je dood.</li>
+    <li>Zodra je dood bent geweest begint alles wat met geheugen te maken heeft opnieuw.</li>
+</ul>
+
+<h3>Artikel 1.9 – Vehicle Deathmatch (VDM)</h3>
+<p>
+    In Leeuwarden Roleplay is het verboden om voertuigen opzettelijk te gebruiken
+    als wapen tegen andere spelers.
+</p>
+<p>Hieronder volgt een simpele uitleg van de categorieën binnen VDM.</p>
+
+<h4>Voorbeelden:</h4>
+<ul>
+    <li>Opzettelijk aanrijden van een persoon, bijvoorbeeld tijdens spookrijden of op het voetpad.</li>
+    <li>Inrijden op iemand met opzet, ongeacht het gevolg.</li>
+    <li>Bewust voor een voertuig gaan staan wordt gezien als een verkeersongeval en niet als VDM.</li>
+    <li>Opzettelijk remmen met de bedoeling dat een ander voertuig of persoon tegen jouw voertuig aanrijdt is niet toegestaan.</li>
+</ul>
+<h3>Artikel 1.10 – GTA Style Driving</h3>
+<p>
+    Onder GTA Style Driving wordt verstaan: onrealistisch rijden met een voertuig,
+    zoals gedrag dat in het echte leven niet realistisch of verantwoord zou zijn.
+</p>
+<p>Hieronder volgt een simpele uitleg van de categorieën binnen GTA Style Driving.</p>
+
+<h4>Voorbeelden:</h4>
+<ul>
+    <li>Stunt jumps nemen met voertuigen.</li>
+    <li>Onrealistisch offroad rijden.</li>
+    <li>Rammen of onnodig beuken van andere voertuigen zonder geldige reden.</li>
+    <li>Gebruik maken van obstakels om ergens overheen te jumpen of te komen met je voertuig of vaartuig.</li>
+    <li>Pitten mag maximaal tot en met 130 km/h, alleen wanneer iemand gevaarlijk is met een wapen of vanuit overheidsperspectief een gevaar vormt voor de samenleving. Correcties kunnen mogelijk zijn bij uitzonderingen.</li>
+    <li>Met één of meerdere lekke banden mag je niet harder dan 130 km/h rijden.</li>
+    <li>Rijden met een onroad voertuig boven 100 km/h op een onverharde weg is niet toegestaan.</li>
+    <li>Pitten van een motor is niet toegestaan.</li>
+    <li>Een rijdende blokkade is niet toegestaan.</li>
+</ul>
+<h3>Artikel 2.1 – Random Death Match (RDM)</h3>
+<p>
+    In Leeuwarden Roleplay dien je een geldige reden te hebben om iemand
+    om het leven te brengen. Het willekeurig doden van spelers zonder
+    roleplay of geldige aanleiding is niet toegestaan.
+</p>
+<p>Hieronder volgt een simpele uitleg van de categorieën binnen RDM.</p>
+
+<h4>Voorbeelden:</h4>
+<ul>
+    <li>Iemand doden zonder voorafgaande roleplay en zonder intentie tot roleplay te tonen.</li>
+    <li>Iemand doden zonder geldige reden.</li>
+    <li>Burgers vermoorden omdat zij geen commando’s uitvoeren (bijv. niet blaffen of iets zeggen).</li>
+    <li>Burgers vermoorden op basis van verdenking zonder duidelijke aanleiding.</li>
+    <li>Massa moord plegen met voertuigen of een wapen.</li>
+    <li>Finishen van een politieagent of KMar (ook DSI en BSB) zonder geldige reden.</li>
+</ul>
+
+<p>
+    <strong>LET OP:</strong> Provocerend gedrag op social media is op eigen
+    verantwoordelijkheid en wordt niet als RDM beschouwd.
+</p>
+        </section>
+
+        <section id="onderwereld">
+            <h2>Onderwereld</h2>
+            <p>De onderwereld binnen Leeuwarden Roleplay draait om spanning, strategie en samenwerking tussen spelers.</p>
+
+            <h3>Artikel – Onderwereld</h3>
+            <p>Alle straffen kunnen verhoogd of verlaagd worden. Dit hangt af van de situatie.</p>
+
+            <h3>Overval / Counterregels</h3>
+            <ul>
+                <li>Het is niet toegestaan een overval te doen zonder wapens binnen, ook moeten er hostages aanwezig zijn.</li>
+                <li>Een overval mag je counteren als er nog geen politie aanwezig is. Zodra politie is aangekoppeld, mag je als crimineel niet meer counteren.</li>
+                <li>Setup na een overval mag pas 5 minuten na groenlicht worden gezet.</li>
+                <li>Het gebruik van een "outside" hostage is niet toegestaan.</li>
+                <li>Je mag spelers niet overvallen van hun bankgeld.</li>
+                <li>Tijdens een achtervolging is het niet toegestaan om snel je kleding te veranderen, je huidige auto in de garage te zetten en een nieuwe auto te pakken, of je appartement te vluchten. Deze acties mogen pas nadat je de achtervolgers hebt afgeschud.</li>
+            </ul>
+
+            <h3>Algemene rip regels</h3>
+            <ul>
+                <li>Rippen van dezelfde persoon is verboden binnen 15 minuten.</li>
+                <li>Indien een persoon geript is, mag je deze niet vermoorden.</li>
+                <li>Bij rippen van meerdere mensen mag je niet dezelfde mensen rippen.</li>
+                <li>Reden om te rippen geldt voor alle inzittenden van een voertuig als één persoon een geldige reden heeft.</li>
+                <li>Het is verboden om ingenomen wapens van agenten te rippen als die wapens niet van jouw groep/gang zijn afgepakt.</li>
+                <li>Je mag wapens pas 5 minuten na terugverovering van de politie proberen te rippen.</li>
+                <li>Maximaal 5 seconden tijdrekken wanneer je wordt geript.</li>
+                <li>Campen/rippen van een verpak/verkoop is niet toegestaan, behalve als iemand fysiek weg rijdt van de locatie.</li>
+                <li>Bij de coke/meth/wiet/lsd locaties mag je geript worden.</li>
+                <li>Witgeld mag alleen worden geript van iemand die aan het witwassen is.</li>
+                <li>Drugsverkopers/witwassers mogen alleen overvallen als je ze fysiek ziet kloppen of videobewijs hebt.</li>
+            </ul>
+
+            <h3>Wanneer mag iemand geript worden?</h3>
+            <ul>
+                <li>Holster zichtbaar</li>
+                <li>Bodyvest (gangvest niet)</li>
+                <li>Masker</li>
+                <li>Witwassen</li>
+                <li>Algemene drugslocaties</li>
+                <li>Iemand zien kloppen</li>
+                <li>Praten over onderwereldactiviteiten (wapens, zwart geld, overval)</li>
+                <li>Duidelijk wapen gezien</li>
+                <li>Langer dan 2 minuten scouten bij schoten (AFK of stilstaande personen tellen niet)</li>
+            </ul>
+
+            <h3>Gangs en samenwerkingen</h3>
+            <ul>
+                <li>Maximaal aantal leden per groepering: 15 (overtreden = Strike)</li>
+                <li>Samenwerking tussen gangs toegestaan, max. met 1 andere gang bij een officiële ally</li>
+                <li>Nep meldingen of het uitlokken van criminelen op/naast gangterreinen is verboden</li>
+            </ul>
+
+            <h3>Wapengebruik en conflictregels</h3>
+            <ul>
+                <li>Dood is dood: wie dood is, mag niet deelnemen aan wraakacties.</li>
+                <li>Setup counteren mag alleen als er geen schiet-setup bezig is en je wapens/holster/masker/body armor ziet.</li>
+                <li>Bounties op iemand zetten en vermoorden is niet toegestaan; bounties mogen alleen voor ontvoering zijn.</li>
+                <li>Ontsnappen uit het cellencomplex is toegestaan mits geldig roleplay scenario.</li>
+                <li>Criminele activiteiten in een appartement zijn verboden.</li>
+                <li>Uitnodigen in appartement is op eigen risico en levert geen refund op.</li>
+            </ul>
+
+            <h3>Specifieke locaties en scenario's</h3>
+            <ul>
+                <li>Campen van startlocaties is verboden.</li>
+                <li>Politie mag wapens pas vernietigen 10 minuten na verlaten van locatie.</li>
+                <li>Binnen 10 minuten na shootout/achtervolging gangterrein betreden is verboden.</li>
+                <li>Onder dwang iemands huis betreden om leeg te roven is verboden.</li>
+            </ul>
+
+            <h3>Specifieke situaties en videobewijs</h3>
+            <ul>
+                <li>Overvallen moeten fysiek worden gezien; callouts tellen alleen met videobewijs.</li>
+                <li>Het dwingen van een wapen met /me pakt wapen mag zodra de persoon overmeesterd is.</li>
+                <li>Gebruik van /me om mensen te boeien/commando’s af te pakken mag niet gebruikt worden door de persoon zelf; overtreding = FailRP.</li>
+            </ul>
+
+            <h3>gangterreinen</h3>
+            <p>
+                Zodra een persoon zonder sleutels of toestemming het terrein betreed mag deze persoon worden geëxecuteerd
+                en mogen de spullen afgepakt worden.
+            </p>
+            <p>
+                De persoon mag maximaal 30 minuten worden vast gehouden op het terrein.
+            </p>
+            <p>
+                Als er iemand op het terrein word gelaten met toestemming van een een sleutelhouder
+                (Iemand met de sleutels van het terrein of een ganglid) dan is er geen reden om de persoon te excuteren
+                of zijn spullen af te pakken. Gebeurt dit wel is het: Ban/Taken.
+            </p>
+        </section>
+
+        <section id="hulpdiensten">
+            <h2>Hulpdiensten</h2>
+            <p>De hulpdiensten zorgen voor veiligheid en stabiliteit binnen de server.</p>
+            <p>Politie, ambulance en brandweer werken samen om realistische scenario’s te creëren.</p>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Leeuwarden Roleplay – Alle rechten voorbehouden
+    </footer>
+
+    <video class="corner-video" autoplay muted loop playsinline>
+        <source src="profounder_com_6aea8098f8a96a55e402f65088329309-21c6b62fb5f1f2c383c2-webm_transparent.webm" type="video/webm">
+    </video>
+
+    <script>
+        function showPage(pageId) {
+            let sections = document.querySelectorAll("main section");
+            sections.forEach(section => {
+                section.classList.remove("active");
+            });
+            document.getElementById(pageId).classList.add("active");
+        }
+    </script>
+</body>
+</html>
